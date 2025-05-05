@@ -10,6 +10,25 @@
 
 ---
 
+## 🔧 How to Run Locally
+
+1. Install [XAMPP](https://www.apachefriends.org/) and [Composer](https://getcomposer.org/)
+2. Clone or download this repository
+   ```bash
+   git clone <repository-url>
+   ```
+3. Open the project directory and install dependencies
+   ```bash
+   composer install
+   ```
+4. Create a new MySQL database and import the SQL file:
+    File path: ./MySql-Database_Export/ship_ticket.sql
+5. Run the Laravel development server:
+   ```bash
+   php artisan serve
+    ```
+---
+
 ## 🚀 Features
 
 ### 👤 User
